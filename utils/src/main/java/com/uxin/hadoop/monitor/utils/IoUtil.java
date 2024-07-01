@@ -27,6 +27,9 @@ public final class IoUtil {
 	 */
 	public static boolean FileIsExsit(String filepath) {
 		File file = new File(filepath);
+		if(1==1){
+			
+		}
 		return file.exists();
 	}
 
